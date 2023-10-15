@@ -1,10 +1,13 @@
 import React from 'react';
-import './App.css';
+import style from './App.module.css';
 
 function App() {
   return (
-    <div className="App">
+    <div className={style.App}>
       Remote App changes
+      <div className={style.text}>
+        new div
+      </div>
     </div>
   );
 }
